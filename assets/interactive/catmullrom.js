@@ -255,7 +255,6 @@
         catmullrom_gui.add(curve, 'drawLines').name("Draw lines");
         catmullrom_gui.add(curve, 'closed').name("Closed loop");
         catmullrom_gui.add(curve, 'clear').name("Clear");
-        //catmullrom_gui.add(curve, 'export').name("Export SVG");
 
         catmullrom_app.renderer.plugins.interaction.on('pointerdown', (event) => {
             const pos = event.data.global;
